@@ -38,24 +38,20 @@ This project uses **GreenSock animations (GSAP)** for an engaging scroll experie
    ```bash
    git clone https://github.com/yourusername/cocktail-gsap.git
    cd cocktail-gsap
-Install dependencies
+2. **Install dependencies**
 
-bash
-Copy
-Edit
+```bash
 npm install
-Start development server
+```
+3. **Start development server**
 
-bash
-Copy
-Edit
+```bash
 npm run dev
 Visit http://localhost:5173
+```
 
-🎥 Optimizing Your Video (Optional but Recommended)
-Use FFmpeg:
-
-bash
-Copy
-Edit
+4. **Optimizing Your Video (Optional but Recommended)**
+   **Use FFmpeg:**
+```bash
 ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4
+```
