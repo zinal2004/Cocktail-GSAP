@@ -1,7 +1,11 @@
 # 🍸 Cocktail Landing Page
 
-A smooth and animated cocktail-themed landing page built with **React + Vite + GSAP**.  
-This project uses **GreenSock animations (GSAP)** for an engaging scroll experience and is fully responsive for all devices.
+The Cocktail GSAP Landing Page is a modern, fully responsive, and performance-optimized web experience built using React.js, Vite, and GSAP (GreenSock Animation Platform). It showcases a fictional high-end cocktail brand through fluid animations, parallax visuals, and scroll-triggered interactions.
+
+This project demonstrates proficiency in frontend UI/UX engineering, animation logic, responsive design, and video integration — ideal for brand storytelling or product showcases.
+
+![Hero Preview](./Hero.jpg)
+
 
 ---
 
@@ -40,18 +44,18 @@ This project uses **GreenSock animations (GSAP)** for an engaging scroll experie
    cd cocktail-gsap
 2. **Install dependencies**
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 3. **Start development server**
 
-```bash
-npm run dev
-Visit http://localhost:5173
-```
+   ```bash
+   npm run dev
+   Visit http://localhost:5173
+   ```
 
 4. **Optimizing Your Video (Optional but Recommended)**
    **Use FFmpeg:**
-```bash
-ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4
-```
+   ```bash
+   ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4
+   ```
